@@ -19,6 +19,12 @@ public class ChatController {
         this.aiAgentService = aiAgentService;
     }
 
+    /**
+     * 这是企业智能助手案例
+     *
+     * @param request
+     * @return
+     */
     @PostMapping("/chat")
     public Map<String,String> chat(@RequestBody Map<String, String> request) {
         String message = request.get("message");
