@@ -1,0 +1,58 @@
+{
+  "properties": [
+    {
+      "name": "spring.ai.vectorstore.milvus.initialize-schema",
+      "type": "java.lang.String",
+      "description": "Description for spring.ai.vectorstore.milvus.initialize-schema."
+    },
+    {
+      "name": "spring.ai.vectorstore.milvus.database-name",
+      "type": "java.lang.String",
+      "description": "Description for spring.ai.vectorstore.milvus.database-name."
+    },
+    {
+      "name": "spring.ai.vectorstore.milvus.collection-name",
+      "type": "java.lang.String",
+      "description": "Description for spring.ai.vectorstore.milvus.collection-name."
+    },
+    {
+      "name": "spring.ai.vectorstore.milvus.embedding-dimension",
+      "type": "java.lang.String",
+      "description": "Description for spring.ai.vectorstore.milvus.embedding-dimension."
+    },
+    {
+      "name": "spring.ai.vectorstore.milvus.metric-type",
+      "type": "java.lang.String",
+      "description": "Description for spring.ai.vectorstore.milvus.metric-type."
+    },
+    {
+      "name": "spring.ai.vectorstore.milvus.index-type",
+      "type": "java.lang.String",
+      "description": "Description for spring.ai.vectorstore.milvus.index-type."
+    },
+    {
+      "name": "spring.ai.vectorstore.milvus.client.host",
+      "type": "java.lang.String",
+      "description": "Description for spring.ai.vectorstore.milvus.client.host."
+    },
+    {
+      "name": "spring.ai.vectorstore.milvus.client.port",
+      "type": "java.lang.String",
+      "description": "Description for spring.ai.vectorstore.milvus.client.port."
+    },
+    {
+      "name": "spring.ai.openai.api-key",
+      "type": "java.lang.String",
+      "description": "Description for spring.ai.openai.api-key."
+    },
+    {
+      "name": "spring.ai.openai.base-url",
+      "type": "java.lang.String",
+      "description": "Description for spring.ai.openai.base-url."
+    },
+    {
+      "name": "spring.ai.openai.chat.options.model",
+      "type": "java.lang.String",
+      "description": "Description for spring.ai.openai.chat.options.model."
+    }
+  ] }

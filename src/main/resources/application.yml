@@ -1,0 +1,27 @@
+spring:
+  ai:
+    openai:
+      api-key: sk-97f2154715054529b23f105ec184be4d
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-chat
+    dashscope:
+      api-key: sk-ws-H.ERLPPLP.jfgZ.MEYCIQD0wmp3Rj4HYXUl1lJgVLp8j_RpaGaQYazrZ4hg7OneCwIhANcFN8ZxE4Tk5YUguQLFJDJp4peqtCVHjbu8fUVLgKSA
+      embedding:
+        options:
+          model: text-embedding-v3
+    vectorstore:
+      milvus:
+        initialize-schema: true
+        database-name: default
+        collection-name: spring_ai_demo
+        embedding-dimension: 1024
+        metric-type: COSINE
+        index-type: IVF_FLAT
+        client:
+          host: localhost
+          port: 19530
+logging:
+  level:
+    org.springframework.ai: DEBUG
